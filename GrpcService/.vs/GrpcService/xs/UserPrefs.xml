@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{D81E36B2-2A3C-4F56-B836-6E5BF714B1F6}|Default">
+  <MonoDevelop.Ide.ItemProperties.GrpcService PreferredExecutionTarget="/Users/imac/Desktop/Firefox.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="GrpcService/Properties/launchSettings.json">
+    <Files>
+      <File FileName="GrpcService/Protos/category.proto" Line="7" Column="1" />
+      <File FileName="GrpcService/Services/CategoryService.cs" Line="118" Column="45" />
+      <File FileName="GrpcService/Models/Product.cs" Line="8" Column="22" />
+      <File FileName="GrpcService/appsettings.json" Line="1" Column="1" />
+      <File FileName="GrpcService/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="GrpcService/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GrpcService" expanded="True">
+            <Node name="GrpcService" expanded="True">
+              <Node name="Context" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True">
+                <Node name="launchSettings.json" selected="True" />
+              </Node>
+              <Node name="Protos" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

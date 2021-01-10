@@ -1,0 +1,39 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "GrpcClient.Protos";
+
+service Category {
+    rpc GetCategory(FindCategory) returns (CategoryInfo);
+    rpc GetProduct(FindProduct) returns (ProductInfo);
+    rpc InsertCategory(CategoryInfo) returns (Empty);
+    rpc InsertProduct(ProductInfo) returns (Empty);
+    rpc UpdateCategory(CategoryInfo) returns (Empty);
+    rpc UpdateProduct(ProductInfo) returns (Empty);
+    rpc DeleteCategory(FindCategory) returns (Empty);
+    rpc DeleteProduct(FindProduct) returns (Empty);
+}
+
+message Empty {
+
+}
+
+message FindCategory {
+    int32 id = 1;
+}
+
+message FindProduct {
+    int32 id = 1;
+}
+
+message CategoryInfo {
+    int32 id = 1;
+    string name = 2;
+}
+
+message ProductInfo {
+    int32 id = 1;
+    string name = 2;
+    double price = 3;
+    CategoryInfo category = 4;
+    int32 categoryid = 5;
+}

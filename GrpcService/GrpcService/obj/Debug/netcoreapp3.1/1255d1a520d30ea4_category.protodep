@@ -1,0 +1,2 @@
+Category.cs \
+CategoryGrpc.cs: Protos/category.proto
